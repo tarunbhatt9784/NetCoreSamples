@@ -17,7 +17,7 @@ namespace Yield
              *GetFibonacciNumber method is called. 
              * Parameter passed is 5, hence GetFibonacciNumber will return 5 fibinacci numbers
              */
-            var numbers = GetFibonacciNumber(100); // 1
+            var numbers = GetFibonacciNumber(10); // 1
             foreach (var no in numbers) // 2
             {
                 Console.WriteLine(no); 
